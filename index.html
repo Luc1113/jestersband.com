@@ -1,8 +1,83 @@
-<!doctype HTML>
-<html><script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
-<script src="https://raw.githack.com/jeromeetienne/AR.js/2.0.5/aframe/build/aframe-ar.js"></script><body style='margin : 0px; overflow: scroll;'>
-  <a-scene embedded arjs>
-    <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-    <a-marker-camera preset='hiro'></a-marker-camera>
-  </a-scene>
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesters | Official Band Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #ff3b3b;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jesters</h1>
+    <p>Official Band Website</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Jesters is a Long Island-based band blending experimental alt-rock, mathy grooves,
+      and nostalgic pop-punk with raw and honest storytelling. Formed by friends with
+      a passion for live performance, Jesters is here to shake things up.
+      More on <a href="https://lucadigrigoli.com" target="_blank">lucadigrigoli.com</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Recent Performance</h2>
+    <p>
+      Two weeks ago, we hit the stage at a local open mic and the response was incredible!
+      It was our first live performance as a group, and the energy was unforgettable.
+      We're thrilled to be doing more gigs soon — stay tuned and follow us on Instagram
+      for updates.
+    </p>
+  </section>
+
+  <section>
+    <h2>Follow Us on Instagram</h2>
+    <!-- Instagram embed via widget or link -->
+    <iframe src="https://www.instagram.com/official_jesters/embed" allowfullscreen></iframe>
+    <p style="text-align:center;">
+      <a href="https://www.instagram.com/official_jesters/" target="_blank" style="color:#ff3b3b;">@official_jesters on Instagram</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Jesters Band. All rights reserved.
+  </footer>
+</body>
+</html>

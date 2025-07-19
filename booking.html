@@ -36,33 +36,41 @@
     <h2 class="section-title text-center mb-4">Book Us for Your Event</h2>
     <p class="text-center">We’re available for private events, parties, and live shows. Let us know what you’re planning!</p>
 
-    <form action="https://formsubmit.co/lucad070103@gmail.com" method="POST" class="row g-3 justify-content-center">
-      <!-- FormSubmit Setup -->
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_subject" value="New Booking Request from Jesters Website" />
-      <input type="hidden" name="_template" value="box" />
-      <input type="hidden" name="_next" value="thank-you.html" />
+        <form action="https://formsubmit.co/lucad070103@gmail.com" method="POST" class="row g-3 justify-content-center">
+        <!-- Required Hidden Fields -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_subject" value="New Booking Request from Jesters Website" />
+        <input type="hidden" name="_template" value="box" />
+        <input type="hidden" name="_next" value="thank-you.html" />
 
-      <!-- Input Fields -->
-      <div class="col-md-4">
-        <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-      </div>
-      <div class="col-md-4">
-        <input type="email" name="email" class="form-control" placeholder="Your Email" required />
-      </div>
-      <div class="col-md-4">
-        <input type="text" name="event_date" class="form-control" placeholder="Event Date" required />
-      </div>
-      <div class="col-md-4">
-        <input type="text" name="location" class="form-control" placeholder="Event Location" required />
-      </div>
-      <div class="col-md-8">
-        <textarea name="details" class="form-control" rows="4" placeholder="Event Details (optional)"></textarea>
-      </div>
-      <div class="col-12 text-center">
-        <button type="submit" class="btn btn-primary">Submit Booking Request</button>
-      </div>
-    </form>
+        <!-- Visible Fields -->
+        <div class="col-md-4">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+        </div>
+
+        <div class="col-md-4">
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+        </div>
+
+        <div class="col-md-4">
+            <input type="text" name="event_date" class="form-control" placeholder="Event Date" required />
+        </div>
+
+        <div class="col-md-4">
+            <input type="text" name="location" class="form-control" placeholder="Event Location" required />
+        </div>
+
+        <div class="col-md-8">
+            <textarea name="details" class="form-control" rows="4" placeholder="Event Details (optional)"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Submit Booking Request</button>
+        </div>
+        
+        </form>
+
   </main>
 
   <!-- Footer -->

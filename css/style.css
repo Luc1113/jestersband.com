@@ -20,12 +20,12 @@ a:hover {
   color: #cf8a54;
 }
 
-/* Navbar color override */
+/* Navbar override */
 .bg-primary {
   background-color: #1f355f !important;
 }
 
-/* Landing Hero */
+/* Landing Hero Video Section */
 .landing-hero {
   position: relative;
   height: 100vh;
@@ -38,10 +38,9 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top; /* Shift the frame upward */
+  object-position: center top;
   z-index: -1;
 }
-
 
 .overlay {
   position: relative;
@@ -52,6 +51,13 @@ a:hover {
   padding-top: 3rem;
 }
 
+/* Gallery Carousel */
+#gallery img {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+/* Footer */
 footer {
   font-size: 0.9rem;
 }

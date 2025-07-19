@@ -39,7 +39,7 @@ a:hover {
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  z-index: -1;
+  z-index: -0.5;
 }
 
 .overlay {

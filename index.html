@@ -4,88 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jesters | Official Band Site</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    .banner {
-      display: block;
-      margin: 2rem auto;
-      max-width: 400px;
-      width: 80%;
-      height: auto;
-    }
-    header {
-      background: #222;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 3rem;
-      color: #ff3b3b;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
-    }
-    footer {
-      background: #222;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <h1>Jesters</h1>
-    <p>Official Band Website</p>
+    <nav>
+      <div class="logo">JESTERS</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#performance">Performances</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+      </ul>
+    </nav>
+    <img src="images/jesters-banner.png" alt="Jesters Band" class="hero-image" />
   </header>
 
-  <img src="images/jesters.png" alt="Jesters Banner" class="banner" />
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Jesters is a Long Island-based band blending nostalgic pop-punk with raw and honest storytelling. Formed by friends with
+        a passion for live performance... Luca, Robert, Eddie, and Colin are here to shake things up.
+        More at <a href="https://lucadigrigoli.com" target="_blank">lucadigrigoli.com</a>.
+      </p>
+    </section>
 
-  <section>
-    <h2>About Us</h2>
-    <p>
-      Jesters is a Long Island-based band blending nostalgic pop-punk with raw and honest storytelling. Formed by friends with
-      a passion for live performance... Jesters Luca, Robert, and Eddie are here to shake things up.
-      More on <a href="https://lucadigrigoli.com" target="_blank">lucadigrigoli.com</a>.
-    </p>
-  </section>
+    <section id="performance">
+      <h2>Recent Performance</h2>
+      <p>
+        Two weeks ago, we hit the stage at The Cup in Wantagh's local open mic and the response was incredible!
+        It was our first live performance as a group, and the energy was unforgettable.
+        More gigs soon — follow us on Instagram for updates.
+      </p>
+    </section>
 
-  <section>
-    <h2>Recent Performance</h2>
-    <p>
-      Two weeks ago, we hit the stage at The Cup in Wantagh's local open mic and the response was incredible!
-      It was our first live performance as a group, and the energy was unforgettable.
-      We're thrilled to be doing more gigs soon — stay tuned and follow us on Instagram
-      for updates.
-    </p>
-  </section>
-
-  <section>
-    <h2>Follow Us on Instagram</h2>
-    <!-- Instagram embed via widget or link -->
-    <iframe src="https://www.instagram.com/official_jesters/embed" allowfullscreen></iframe>
-    <p style="text-align:center;">
-      <a href="https://www.instagram.com/official_jesters/" target="_blank" style="color:#ff3b3b;">@official_jesters on Instagram</a>
-    </p>
-  </section>
+    <section id="instagram">
+      <h2>Follow Us</h2>
+      <div class="instagram-embed">
+        <iframe src="https://www.instagram.com/official_jesters/embed" allowfullscreen></iframe>
+        <p><a href="https://www.instagram.com/official_jesters/" target="_blank">@official_jesters on Instagram</a></p>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    &copy; 2025 Jesters Band. All rights reserved.
+    <p>&copy; 2025 Jesters Band. All rights reserved.</p>
   </footer>
 </body>
 </html>
